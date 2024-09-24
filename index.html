@@ -6,19 +6,21 @@
     <meta name="Author" content="Tyler Martin">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Fiona's Farm</title>
-    <link href="#" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
 </head>
 <body>
+    <div class="header">
     <header>
         <h1>Fiona's Farm</h1>
         <p>Fresh from our farm to your family table</p>
-        <nav>
-            <ul>
-                <li><a href="#fruits">Fruits</a></li>
-                <li><a href="#vegetables">Vegetables</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#fruits">Fruits</a></li>
+            <li><a href="#vegetables">Vegetables</a></li>
+        </ul>
+    </nav>
+    </div>
     <main>
         <section id="fruits">
             <h2>Fruits</h2>
@@ -133,52 +135,55 @@
         </section>
     </main>
     <footer>
-        <h2>Contact</h2>
-        <address>
-            1234 Fake Street,<br>
-            Mesa, AZ 8511<br>
-            (480) 555-1234<br>
-        </address>
-        <section id="hours">
-            <h2>Hours</h2>
-            <dl>
-                <div>
-                    <dt>Monday</dt>
-                    <dd>Closed</dd>
-                </div>
-                <div>
-                    <dt>Tuesday</dt>
-                    <dd>6:00 AM - 2:00PM</dd>
-                </div>
-                <div>
-                    <dt>Wednesday</dt>
-                    <dd>6:00 AM - 2:00PM</dd>
-                </div>
-                <div>
-                    <dt>Thursday</dt>
-                    <dd>6:00 AM - 2:00PM</dd>
-                </div>
-                <div>
-                    <dt>Friday</dt>
-                    <dd>6:00 AM - 9:00PM</dd>
-                </div>
-                <div>
-                    <dt>Saturday</dt>
-                    <dd>6:00 AM - 9:00PM</dd>
-                </div>
-                <div>
-                    <dt>Sunday</dt>
-                    <dd>6:00 AM - 5:00PM</dd>
-                </div>
-            </dl>
-        </section>
-        <nav>
+        <div class="footer-grid">
+            <section id="contact">
+            <h2>Contact</h2>
+            <address>
+                1234 Fake Street,<br>
+                Mesa, AZ 8511<br>
+                (480) 555-1234<br>
+            </address>
+            </section>
+            <section id="hours">
+                <h2>Hours</h2>
+                <dl>
+                    <div>
+                        <dt>Monday- </dt>
+                        <dd> Closed</dd>
+                    </div>
+                    <div>
+                        <dt>Tuesday- </dt>
+                        <dd> 6:00 AM - 2:00PM</dd>
+                    </div>
+                    <div>
+                        <dt>Wednesday- </dt>
+                        <dd> 6:00 AM - 2:00PM</dd>
+                    </div>
+                    <div>
+                        <dt>Thursday- </dt>
+                        <dd> 6:00 AM - 2:00PM</dd>
+                    </div>
+                    <div>
+                        <dt>Friday- </dt>
+                        <dd> 6:00 AM - 9:00PM</dd>
+                    </div>
+                    <div>
+                        <dt>Saturday- </dt>
+                        <dd> 6:00 AM - 9:00PM</dd>
+                    </div>
+                    <div>
+                        <dt>Sunday- </dt>
+                        <dd> 6:00 AM - 5:00PM</dd>
+                    </div>
+                </dl>
+            </section>
+        </div>
+    </footer>
+        <nav class="top">
             <ul>
                 <li><a href="#top">Top</a></li>
             </ul>
-        </nav>
-            <p>&copy; Copyright 2024</p>        
-    </footer>
-
+        </nav>       
+    <p id="copyright">Copyright 2024</p> 
 </body>
 </html>
